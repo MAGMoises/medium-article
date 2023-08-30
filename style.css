@@ -1,0 +1,44 @@
+body {
+  color: #494949; /* Define a cor do texto no corpo do documento */
+  font-size: 18px; /* Define o tamanho da fonte */
+  line-height: 1.6; /* Define a altura da linha, espaço entre as linhas */
+  font-weight: lighter; /* Define a espessura da fonte como mais leve */
+  font-family: 'Lora', serif; /* Define a família da fonte, neste caso 'Lora' e fontes genéricas 'serif' caso 'Lora' não esteja disponível */
+  margin: 0; /* Remove margens ao redor do corpo do documento */
+  text-align: justify; /* Alinha o texto justificado (alinha tanto à esquerda quanto à direita) */
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/random/1000x500"); /* Define a imagem de fundo do banner */
+  background-size: cover; /* Faz a imagem de fundo cobrir todo o espaço do elemento */
+  color: white; /* Define a cor do texto dentro do banner como branca */
+  padding: 120px 0; /* Adiciona preenchimento (espaço interno) acima e abaixo do conteúdo do banner */
+}
+
+.banner h1 {
+  font-size: 38px; /* Define o tamanho da fonte do título h1 dentro do banner */
+}
+
+.banner p {
+  font-size: 30px; /* Define o tamanho da fonte do parágrafo dentro do banner */
+  font-style: italic; /* Define o estilo da fonte como itálico */
+  font-weight: lighter; /* Define a espessura da fonte como mais leve */
+  opacity: 0.8; /* Define a opacidade do texto para 80%, tornando-o um pouco transparente */
+}
+
+.container {
+  width: 700px; /* Define a largura máxima do container principal */
+  margin: 50px auto; /* Define margens de 50px acima e abaixo e centraliza horizontalmente o container */
+}
+
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1)); /* Define um gradiente de fundo para o link */
+  color: #636363; /* Define a cor do texto do link */
+  font-weight: lighter; /* Define a espessura da fonte como mais leve */
+  font-size: 25px; /* Define o tamanho da fonte do link */
+  font-style: italic; /* Define o estilo da fonte como itálico */
+}
+
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1)); /* Define o gradiente de fundo quando o link é hover (passagem do mouse) */
+}
